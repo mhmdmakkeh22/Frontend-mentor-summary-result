@@ -1,0 +1,48 @@
+.attribution {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.result{
+    border-radius: 10px;
+    border: 1px solid purple;
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 200px;
+    height: 400px;
+    
+}
+.result-word{
+    font-size: 18px;
+    color: wheat;
+}
+.result-value{
+    font-size: 3rem;
+    border: 1px solid rgb(139, 0, 139);
+    border-radius: 50%;
+    background-color: rgb(139, 0, 139) ;
+    width: 100px;
+    padding: 20px;
+    align-self: center;
+    font-weight: bolder;
+    color: wheat;
+}
+.result-equal{
+    font-size: 30px;    
+    color: wheat;
+    font-weight: bolder;
+}
+.result-total{
+    font-size: 10px;
+    font-weight: normal;
+    color: gray;
+}
+.result-text{
+    color: wheat;
+    font-size: 18px;
+}
